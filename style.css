@@ -1,0 +1,92 @@
+header {
+  background: #333;
+  padding: 1em;
+}
+
+header img {
+  width: 125px;
+  margin: auto;
+  display: block;
+}
+
+header ul {
+  text-align: center;
+  padding: 1em;
+
+}
+
+header ul li {
+  text-transform: uppercase;
+  color:#ccc;
+
+
+
+
+}
+
+li {
+  padding: 0.5em;
+  display: inline-block;
+  list-style: none;
+  font-size: 10px;
+  border-right: 1px solid #ccc;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+main {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.blurb {
+  line-height: 30px;
+}
+
+.banner-text {
+    color: #333;
+    font-size: 130%;
+    background-color: #eaf5e9;
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin-top: 1em;
+    font-weight: normal;
+
+}
+
+main h1 {
+font-weight: normal;
+
+}
+
+.download-block {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background: green;
+  font-size: 30px;
+  padding: .2em .6em;
+}
+
+small {
+  display: block;
+  font-size: 12px;
+}
